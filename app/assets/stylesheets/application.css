@@ -1,0 +1,88 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ body {
+  background-color: #c1c1d7;
+  background: linear-gradient(
+  to bottom,
+  #c1c1d7,
+  #c1c1d7 50%,
+  #9292b9 50%,
+  #9292b9
+);
+}
+
+h2 {
+  text-align: center;
+}
+
+#tina {
+  position: absolute;;
+  top: 0; bottom:120px; left: 0; right:0;
+  margin: auto;
+  width: 250px;
+}
+
+#likes {
+  width: 300px;
+  background-color: white;
+  border: 1px solid black;
+  padding-left: 20px;
+  position: relative;
+  top: 50px;
+  left: 12%;
+}
+
+#romance {
+  width: 500px;
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 20px;
+  position: relative;
+  left: 60%;
+  top: 27px;
+}
+
+#romance_text {
+  text-align: center;
+}
+
+#jimmy_dance {
+  height: 200px;
+  width: 300px;
+}
+
+#family {
+  height: 280px;
+  width: 540px;
+  background-color: white;
+  padding: 6px;
+  border: 1px solid black;
+  text-align: center;
+  position: relative;
+  left: 50px;
+  bottom: 55px;
+}
+
+.fam {
+    display: inline-block;
+    text-align: center:
+}
+
+.fam img {
+  height: 200px;
+  width: 128px;
+}
